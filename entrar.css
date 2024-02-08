@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #d2baa0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login > h1{
+    color: black;
+}
+
+.rigth-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: white;
+    border-radius: 30px;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textfield > input{
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: white;
+    margin-bottom: 10px;
+    margin: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #d2baa0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login > h1{
+    color: black;
+}
+
+.logo{
+    width: 35vw;
+}
+.rigth-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: black;
+    border-radius: 30px;
+}
+
+.card-login > h1{
+    color: white;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfied{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textfied > input{
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #d2baa0;
+    color: black;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfied > label{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.textfied > input::placeholder{
+    color: white;
+}
+
+.btn-entrar{
+   width: 100%;
+   padding: 16px 0px;
+   margin: 25%;
+   border: none;
+   border-radius: 25px;
+   outline: none;
+   text-transform: uppercase;
+   font-weight: 800;
+   letter-spacing: 3px;
+   color: #d2baa0;
+   background: white;
+   cursor: pointer;
+
+}
